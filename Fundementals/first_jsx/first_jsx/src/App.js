@@ -19,7 +19,7 @@
 
   
 import React from "react";
-import PeopleComponent from "./components/someclasscomponent";
+import PeopleComponent from "./components/SomeClassComponent.js";
 
 
 class Person {
