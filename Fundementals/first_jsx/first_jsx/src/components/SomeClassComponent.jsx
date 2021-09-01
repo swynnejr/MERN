@@ -34,7 +34,7 @@ class PeopleComponent extends Component {
     render() {
         const clickLastName = ()=>{
             console.log(`You clicked on ${this.props.person.firstName} ${this.props.person.lastName}`);
-            alert(`You clicked on someone that is ${this.props.person.age} years old.`);
+            alert(`You clicked on someone that is ${this.state.currentAge} years old.`);
         }
         const clickBirthdayButton = ()=>{
             this.setState({currentAge: this.state.currentAge+1})
