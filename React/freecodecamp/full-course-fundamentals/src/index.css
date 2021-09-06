@@ -30,6 +30,19 @@ body {
     padding: 1rem 2rem;
 }
 
+.book img {
+    max-height: 300px;
+}
+
 .book h1 {
     margin-top: 0.5rem;
+    font-size: 2em;
+}
+
+.book h4 {
+    color: rgb(98, 103, 114);
+}
+
+.book p {
+    margin-top: .5rem;
 }
