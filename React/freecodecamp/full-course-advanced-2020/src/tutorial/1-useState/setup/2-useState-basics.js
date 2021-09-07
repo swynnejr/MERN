@@ -6,7 +6,7 @@ const UseStateBasics = () => {
   // const handler = useState(1)[1];
   // console.log(value, handler);
   const [text, setText] = useState('Random Title')
-  
+
   const handleClick = () => {
     if(text === "Random Title"){
       setText("Hello World")
@@ -22,7 +22,7 @@ const UseStateBasics = () => {
       </button>
     </>
 
-  )
+  );
 };
 
 export default UseStateBasics;
